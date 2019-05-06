@@ -212,3 +212,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT PAGE CSS */
+hr {
+    border: 1px dashed;
+}
+
+hr.about {
+    width: 790px;
+}
+
+.about-text {
+    width: 700px;
+    margin: auto;
+}
+
+.container.about-page {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-box img {
+    width: 100%;
+}
+
+.content-box {
+    width: 48%;
+}
+
+
+.bottom-section-container {
+    width: 800px;
+    margin: auto;
+}
+
+
+footer.about-page {
+    width: 800px;
+    margin: auto;
+}
