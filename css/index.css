@@ -66,6 +66,33 @@ p {
     line-height: 1.4;
 }
 
+/* NavBar CSS */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 40px;
+}
+
+nav .nav-logo {
+    margin-right: 7px;
+}
+
+
+/* Header CSS */
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
