@@ -74,10 +74,17 @@ nav {
     padding: 30px;
 }
 
-nav a {
+nav.top-nav a {
     text-decoration: none;
     color: black;
     margin: 0 40px;
+    transition: 1s;
+}
+
+nav.top-nav a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
 
 nav .nav-logo {
@@ -122,6 +129,17 @@ header {
     margin-bottom: 0;
 }
 
+/* BOX ANIMATION */
+@keyframes box-jump {
+    0% {
+        height: 50px
+    }
+
+    100% {
+        height: 100px;
+    }
+}
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -137,7 +155,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name: box-jump;
+    animation-duration: 2s;
 }
+
+
 
 /* Coloring the Boxes */
 .middle-content .boxes .box-1 {
@@ -262,6 +284,14 @@ button {
   display: inline-block;
   font-size: 14px;
   margin: 10px 0;
+  transition: 0.5s;
+}
+
+.learn-more-btn:hover {
+   background-color: black;
+   border: 2px solid white;
+   color: white; 
+   border-radius: 0;
 }
 
 .lets-work-together {
@@ -271,5 +301,4 @@ button {
 .about-page-footer {
     width: 800px;
     margin: auto;
-    text-align: left;
 }
