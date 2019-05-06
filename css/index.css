@@ -224,7 +224,7 @@ hr.about {
 
 .about-text {
     width: 700px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .container.about-page {
@@ -239,17 +239,37 @@ hr.about {
 }
 
 .content-box {
+    margin: 20px 0;
     width: 48%;
 }
 
-
-.bottom-section-container {
-    width: 800px;
-    margin: auto;
+.content-box h3, .content-box p {
+    margin: 10px 0;
 }
 
+button {
+    cursor: pointer;
+}
 
-footer.about-page {
+.learn-more-btn {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.lets-work-together {
+    margin: 30px 0;
+}
+
+.about-page-footer {
     width: 800px;
     margin: auto;
+    text-align: left;
 }
